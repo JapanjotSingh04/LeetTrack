@@ -1,0 +1,49 @@
+# Backend
+backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+backend/venv/
+backend/.venv/
+*.pyc
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Test / tooling caches
+.pytest_cache/
+backend/.pytest_cache/
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+
+# Secrets, generated files, and local data
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+backend/venv/
+frontend/dist/
+*.log
+*.sql
+!database/schema.sql
+!database/schema_managed.sql
+!database/seed.sql
+!database/seed_question_bank.sql
+!database/create_app_user.sql
+*.sql.gz
+*.dump
+database/dumps/
+*.sqlite
+*.db
+.DS_Store
+.idea/
+
+# Private keys / certificates (never commit)
+*.key
+*.pem
